@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For ZE07_CO
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ZE7_CO	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+beginMode1	KEYWORD2
+beginMode2	KEYWORD2
+Request_CO_data	KEYWORD2
+updateMode1_data	KEYWORD2
+updateMode2_data	KEYWORD2	
+#######################################
+# Instances (KEYWORD2)
+#######################################
+concentration	KEYWORD2
+read_flag	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
