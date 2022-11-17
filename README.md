@@ -23,7 +23,7 @@
  to set the mode to be used. All UART communication takes place using unique nine byte data blocks.
  
  This arduino library provides the code required to retrive CO concentration levels
- from this device via. a software serial port and two or three simple function calls. 
+ from this device via. a serial port and two or three simple function calls. 
  Much of this code is patterned after that found in ZE07-CO_Sensor library Developed by 
  Valentin - 2018/01/03, https://github.com/tweenietomatoes/ZE07CO#start-of-content.
 
