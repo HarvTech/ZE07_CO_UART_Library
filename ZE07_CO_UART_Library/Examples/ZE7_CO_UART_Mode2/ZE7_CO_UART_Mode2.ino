@@ -54,6 +54,17 @@ SoftwareSerial COSerial(Softserial_RX_pin, Softserial_TX_Pin );
 //Refer the Software Serial port to the ZE7_CO library.
 ZE7_CO ZE7_CO(&COSerial);
 
+//Reference use of a HardwareSerial port, i.e.use of Hardware Serial2.
+//ZE7_CO ZE7_CO(&Serial2);
+
+//This should work with boards supporting multiple HardwareSerial ports. It does not work with
+//the NodeMcu board due to the following issues.
+// 1) I found the ZE07-C0 UART output unable to drive the NodeMCU HardwareSerial 
+//    RX pin directly. It seems unable to sink enough current and a buffer is required. 
+// 2) The HardwareSerial port selected should not be that used to upload code or receive other serial input.
+
+
+
 //-------------------Global Variables-----------------------------------------------------------------------------------
 
 unsigned long previousMillis = 0; 
