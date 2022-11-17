@@ -37,6 +37,7 @@ class ZE7_CO
 
 //-------------------Public Functions-------------------------------------------------------------------- 
   ZE7_CO(SoftwareSerial* Serial); //Use the designated SoftwareSerial port.
+  ZE7_CO(HardwareSerial* Serial); //Use the designated HardwarwwareSerial port.
   void beginMode1(); //Setuo Mode1.
   void beginMode2(); //Setup Mode2.
   void Request_CO_data(); //Request Mode2 data
