@@ -33,6 +33,12 @@ ZE7_CO::ZE7_CO(SoftwareSerial* Serial)
   mySerial = Serial;
 }
 
+//Point mySerial to the Hardwareware Serial port.
+ZE7_CO::ZE7_CO(HardwareSerial* Serial) 
+{
+  mySerial = Serial;
+}
+
 //Setup Mode1.
 void ZE7_CO::beginMode1()
 {
